@@ -1,11 +1,225 @@
-<html lang="en" data-theme="retro">
+<html lang="en" data-theme="curtisTheme">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>My Final Project~</title>
+    <title>Pokemon Gallery</title>
     <link href="./output.css" rel="stylesheet" />
   </head>
   <body>
+    <div class="flex items-center justify-between space-x-1">
+      <!-- ! Heeader Left -->
+      <div class="flex items-center space-x-2">
+        <img
+          src="https://loodibee.com/wp-content/uploads/International-Pokemon-logo.png"
+          class="h-32"
+        />
+
+        <div class="join">
+          <a class="btn join-item rounded-full" href="#">Home</a>
+          <a class="btn join-item rounded border-4" href="#">Card Values</a>
+          <a class="btn join-item rounded border-4" href="#">Features</a>
+          <a class="btn join-item rounded border-4" href="#">Community</a>
+          <a class="btn join-item  rounded-full" href="#">Support</a>
+        </div>
+      </div>
+        
+      <!-- ! Header Right -->
+      <div class="flex items-center space-x-2">
+        <div class="join">
+            <!-- ! Theme options -->
+      <div class="dropdown dropdown-end join-item btn rounded-l-full">
+        <div class="btn" role="button" tabindex="0">Themes</div>
+        <ul class="dropdown-content rounded-box bg-base-300 z-[1] w-52">
+          <li>
+            <input
+              type="radio"
+              name="theme-dropdown"
+              aria-label="Forest"
+              value="forest"
+              class="theme-controller btn btn-ghost btn-block justify-start"
+            />
+          </li>
+          <li>
+            <input
+              type="radio"
+              name="theme-dropdown"
+              aria-label="Retro"
+              value="retro"
+              class="theme-controller btn btn-ghost btn-block justify-start"
+            />
+          </li>
+          <li>
+            <input
+              type="radio"
+              name="theme-dropdown"
+              aria-label="Cupcake"
+              value="cupcake"
+              class="theme-controller btn btn-ghost btn-block justify-start"
+            />
+          </li>
+          <li>
+            <input
+              type="radio"
+              name="theme-dropdown"
+              aria-label="Dark"
+              value="dark"
+              class="theme-controller btn btn-ghost btn-block justify-start"
+            />
+          </li>
+          <li>
+            <input
+              type="radio"
+              name="theme-dropdown"
+              aria-label="Light"
+              value="light"
+              class="theme-controller btn btn-ghost btn-block justify-start"
+            />
+          </li>
+          <li>
+            <input
+              type="radio"
+              name="theme-dropdown"
+              aria-label="Valentine"
+              value="valentine"
+              class="theme-controller btn btn-ghost btn-block justify-start"
+            />
+          </li>
+          <!-- <li>
+            <input
+              type="radio"
+              name="theme-dropdown"
+              aria-label="Dark But Better"
+              value="curtisTheme"
+              class="theme-controller btn btn-ghost btn-block justify-start"
+            />
+          </li> -->
+        </ul>
+      </div>
+          <button class="btn join-item border-blue-4 rounded border-4">Log In</button>
+          <!-- a split for "log in" and "sign up"-->
+          <button class="btn join-item text rounded-ful">
+            Sign Up
+          </button>
+        </div>
+      </div>
+    </div>
+    <div class="flex w-full items-center justify-center py-4">
+      <div class="relative flex w-3/5 items-center">
+        <img src="imgs/ic_search.svg" class="absolute left-3" />
+        <input
+          type="text"
+          class="h-12 w-full rounded-full pl-10 outline-none"
+        />
+
+        <button
+          class="class absolute right-0 h-full rounded-r-full bg-blue-600 pl-5 pr-5 text-white hover:bg-blue-900 transition duration-700"
+        >
+          Search
+        </button>
+      </div>
+    </div>
+    <div class="my-4" />
+    <div class="flex space-x-2">
+
     
+
+    <!-- content container -->
+
+    <div class="flex w-full justify-center">
+      <div class="flex w-4/5 flex-col space-y-4">
+        <!-- Continue here... -->
+        <div class="grid grid-cols-5 grid-rows-5 gap-1 text-center">
+          <div class="row-span-1 bg-red-200">
+            <img
+              src="https://i.ebayimg.com/images/g/oyoAAOSwaD1mnYvy/s-l400.jpg"
+              class="h-full w-full object-cover"
+            />
+          </div>
+          <div class="row-span-1 bg-red-200">
+            <img
+              src="https://i.ebayimg.com/images/g/oyoAAOSwaD1mnYvy/s-l400.jpg"
+              class="h-full w-full object-cover"
+            />
+          </div>
+          <div class="row-span-1 bg-red-200">
+            <img
+              src="https://i.ebayimg.com/images/g/oyoAAOSwaD1mnYvy/s-l400.jpg"
+              class="h-full w-full object-cover"
+            />
+          </div>
+          <div class="row-span-1 bg-red-200">
+            <img
+              src="https://i.ebayimg.com/images/g/oyoAAOSwaD1mnYvy/s-l400.jpg"
+              class="h-full w-full object-cover"
+            />
+          </div>
+          <div class="row-span-1 bg-red-200">
+            <img
+              src="https://i.ebayimg.com/images/g/oyoAAOSwaD1mnYvy/s-l400.jpg"
+              class="h-full w-full object-cover"
+            />
+          </div>
+          <div class="row-span-1 bg-red-200">
+            <img
+              src="https://i.ebayimg.com/images/g/oyoAAOSwaD1mnYvy/s-l400.jpg"
+              class="h-full w-full object-cover"
+            />
+          </div>
+          <div class="row-span-1 bg-red-200">
+            <img
+              src="https://i.ebayimg.com/images/g/oyoAAOSwaD1mnYvy/s-l400.jpg"
+              class="h-full w-full object-cover"
+            />
+          </div>
+          <div class="row-span-1 bg-red-200">
+            <img
+              src="https://i.ebayimg.com/images/g/oyoAAOSwaD1mnYvy/s-l400.jpg"
+              class="h-full w-full object-cover"
+            />
+          </div>
+          <div class="row-span-1 bg-red-200">
+            <img
+              src="https://i.ebayimg.com/images/g/oyoAAOSwaD1mnYvy/s-l400.jpg"
+              class="h-full w-full object-cover"
+            />
+          </div>
+          <div class="row-span-1 bg-red-200">
+            <img
+              src="https://i.ebayimg.com/images/g/oyoAAOSwaD1mnYvy/s-l400.jpg"
+              class="h-full w-full object-cover"
+            />
+          </div>
+          <div class="row-span-1 bg-red-200">
+            <img
+              src="https://i.ebayimg.com/images/g/oyoAAOSwaD1mnYvy/s-l400.jpg"
+              class="h-full w-full object-cover"
+            />
+          </div>
+          <div class="row-span-1 bg-red-200">
+            <img
+              src="https://i.ebayimg.com/images/g/oyoAAOSwaD1mnYvy/s-l400.jpg"
+              class="h-full w-full object-cover"
+            />
+          </div>
+          <div class="row-span-1 bg-red-200">
+            <img
+              src="https://i.ebayimg.com/images/g/oyoAAOSwaD1mnYvy/s-l400.jpg"
+              class="h-full w-full object-cover"
+            />
+          </div>
+          <div class="row-span-1 bg-red-200">
+            <img
+              src="https://i.ebayimg.com/images/g/oyoAAOSwaD1mnYvy/s-l400.jpg"
+              class="h-full w-full object-cover"
+            />
+          </div>
+          <div class="row-span-1 bg-red-200">
+            <img
+              src="https://i.ebayimg.com/images/g/oyoAAOSwaD1mnYvy/s-l400.jpg"
+              class="h-full w-full object-cover"
+            />
+          </div>
+        </div>
+    </div>
   </body>
 </html>
